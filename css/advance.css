@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  background-color: #1d2a35;
+  color: white;
+}
+
+#Sec {
+  font-size: 6vw;
+  filter: drop-shadow(24px 11px 7px black);
+}
+
+#Timer {
+  filter: drop-shadow(24px 11px 7px black);
+  text-align: center;
+  font-size: 23vw;
+}
+
+.countryNameAndTime {
+  padding: 30px;
+  background-color: #ffffff;
+  color: #1d2a35;
+  font-family: "Times New Roman", Times, serif;
+  filter: drop-shadow(24px 11px 7px black);
+}
+
+.countryNameAndTime:hover {
+  background-color: #d2691e;
+  color: #ffffff;
+}
+.row {
+  margin: 0;
+  padding: 0;
+}
+.rounded-circle {
+  background-color: #d2691e;
+  color: #ffffff;
+  width: 11vw;
+  height: 11vw;
+  font-size: 3vw;
+  filter: drop-shadow(24px 11px 7px rgb(53, 53, 53));
+}
+.stopwatch {
+  font-size: 4vw;
+}
+#stopWatchText {
+  font-size: 2vw;
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1500px;
+  }
+}
+.Header {
+  text-decoration: none;
+  color: #d2691e;
+  font-weight: lighter;
+}
